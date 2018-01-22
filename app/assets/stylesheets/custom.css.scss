@@ -21,3 +21,46 @@ $navbar-default-bg: rgba(72,69,69,0.8);
  .center {
    text-align: center;
  }
+ 
+ .jumbotron{
+   background-image: asset-url('rtcam-image.jpg');
+   background-size: cover;
+   height:650px;
+ }
+ 
+ .jumbotron h1{
+   color: rgba( 229, 231, 233 ,0.8);
+ }
+ 
+ .btn-xlarge {
+   font-size:1.7em;
+   background-color:rgba(71, 74, 81, 0.8);
+   font-color: white;
+   
+ }
+ 
+ footer {
+   margin-top: 1px;
+   padding-top:0px;
+   border-top:1px solid #eaeaea;
+   background-color:black ;
+ }
+ 
+ footer a:hover {
+   color:#222;
+    }
+    
+  footer small {
+    float: right;
+  }
+  
+  footer ul{
+    
+    float: left;
+    list-style:none;
+  }
+  
+  footer ul li{
+    float: left;
+    margin-left:15px;
+  }
