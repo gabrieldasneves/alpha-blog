@@ -2,7 +2,7 @@ $navbar-default-bg: rgba(72,69,69,0.8);
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
-$navbar-default-bg: rgba(72,69,69,0.8);
+
 
 #logo {
   float: left;
@@ -25,7 +25,8 @@ $navbar-default-bg: rgba(72,69,69,0.8);
  .jumbotron{
    background-image: asset-url('rtcam-image.jpg');
    background-size: cover;
-   height: 650px;
+   height: 800px;
+   
  }
  
  .jumbotron h1{
@@ -87,4 +88,4 @@ margin-top: 0;
   footer ul li{
     float: left;
     margin-left: 15px;
-  }
+  }  
