@@ -3,7 +3,7 @@
 
 
 <div class='well col-xs-8 col-xs-offset-2'
-   <h4 align='center' ><strong>Description:</strong></h4>
+   <h4 align='center description' ><strong>Description:</strong></h4>
    <hr>
   <%= simple_format(@article.description) %>
 <div class="article_actions">
@@ -11,3 +11,4 @@
 <%= link_to 'delete', articles_path(@article), method: :delete, data: {confirm: 'are you sure?'},class: 'btn btn-xs btn-danger' %>
 <%= link_to 'view all', articles_path, class: 'btn btn-xs btn-primary' %>
 </div>
+
